@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+/*  */
+* {
+  font-family: 'Roboto', serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C4C4C4;
+  align-items: center;
+}
+
+.container {
+  padding-top: 200px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+/*  */
+
+/*  */
+.search {
+  margin-bottom: 30px;
+}
+
+.search__header {
+  text-align: center;
+}
+
+.search__input {
+  border: none;
+  padding: 10px;
+  font-size: 48px;
+  max-width: 500px;
+}
+
+.search__results {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  max-width: 500px;
+}
+/*  */
+
+/*  */
+.repositories-list {
+  padding: 0;
+  margin: 0;
+}
+
+.repositories-list__item {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  background-color: #E27BEB;
+  padding: 10px;
+}
+
+.repositories-list__add-btn {
+  cursor: pointer;
+  font-size: 30px;
+  background-color: #E3E3E3;
+  font-weight: 400;
+  border: 2px solid #000;
+  width: 500px;
+  text-align: left;
+}
+
+.repositories-list__add-btn:hover {
+    background-color: #65CDF9;
+}
+
+.repositories-list__left {
+  list-style-type: none;
+  padding: 0;
+  font-size: 24px;
+}
+
+.delete-btn {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  cursor: pointer;
+}
+/*  */
