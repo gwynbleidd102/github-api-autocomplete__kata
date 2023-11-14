@@ -58,7 +58,7 @@ function addRepository(element) {
         </ul>
       </div>
       <div class="repositories-list__right">
-        <button class="delete-btn"><img src="/icons/delete.svg" alt="Кнопка удаления репозитория"></button>
+        <button class="delete-btn"><img src="delete.svg" alt="Кнопка удаления репозитория"></button>
       </div>
     </li>`
   );
