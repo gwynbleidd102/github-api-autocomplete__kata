@@ -28,7 +28,7 @@ searchField.addEventListener('input', debounce(function (elem) {
       .then((response) => {
         // console.log(response)
         searchResults = response.items;
-        searchUl.innerHTML = '';
+        searchUl.textContent = '';
         response.items.forEach((elem, index) => {
           const searchLi = document.createElement('li');
           const searchLiBtn = document.createElement('button');
